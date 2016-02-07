@@ -1,1 +1,1 @@
-include ':androiddatamonitoring'
+include ':androiddatamonitoring', ':androiddatamonitoring-example'
