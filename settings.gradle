@@ -1,1 +1,1 @@
-include ':androiddatamonitoring', ':androiddatamonitoring-example'
+include ':androiddatamonitoring', ':androiddatamonitoring-example', ':logcat-activity-android:logcat-library:logcat'

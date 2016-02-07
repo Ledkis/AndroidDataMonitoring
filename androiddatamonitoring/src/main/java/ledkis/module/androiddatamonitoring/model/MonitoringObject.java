@@ -1,4 +1,4 @@
-package ledkis.monitoring.model;
+package ledkis.module.androiddatamonitoring.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;

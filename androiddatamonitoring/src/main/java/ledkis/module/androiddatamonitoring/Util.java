@@ -1,4 +1,4 @@
-package ledkis.monitoring;
+package ledkis.module.androiddatamonitoring;
 
 public class Util {
 

@@ -1,4 +1,4 @@
-package ledkis.monitoring.adapter;
+package ledkis.module.androiddatamonitoring.adapter;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -10,9 +10,10 @@ import android.widget.TextView;
 import java.util.List;
 import java.util.Map;
 
-import ledkis.monitoring.R;
-import ledkis.monitoring.Util;
-import ledkis.monitoring.model.KeyValueObject;
+import ledkis.module.androiddatamonitoring.R;
+import ledkis.module.androiddatamonitoring.Util;
+import ledkis.module.androiddatamonitoring.model.KeyValueObject;
+
 
 public class ListKeyValueObjectAdapter extends BaseExpandableListAdapter {
 

@@ -1,4 +1,4 @@
-package ledkis.monitoring.fragment;
+package ledkis.module.androiddatamonitoring.fragment;
 
 
 import android.app.Fragment;
@@ -10,10 +10,11 @@ import android.widget.ExpandableListView;
 
 import java.util.List;
 
-import ledkis.monitoring.MonitoringActivity;
-import ledkis.monitoring.R;
-import ledkis.monitoring.adapter.ListKeyValueObjectAdapter;
-import ledkis.monitoring.model.ListKeyValueObject;
+import ledkis.module.androiddatamonitoring.MonitoringActivity;
+import ledkis.module.androiddatamonitoring.R;
+import ledkis.module.androiddatamonitoring.adapter.ListKeyValueObjectAdapter;
+import ledkis.module.androiddatamonitoring.model.ListKeyValueObject;
+
 
 public class ListKeyValueFragment extends Fragment {
 

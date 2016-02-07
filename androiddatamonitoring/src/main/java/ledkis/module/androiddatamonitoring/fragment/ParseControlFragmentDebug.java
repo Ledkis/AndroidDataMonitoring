@@ -1,4 +1,4 @@
-package ledkis.monitoring.fragment;
+package ledkis.module.androiddatamonitoring.fragment;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -7,8 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import ledkis.monitoring.MonitoringActivity;
-import ledkis.monitoring.R;
+import ledkis.module.androiddatamonitoring.MonitoringActivity;
+import ledkis.module.androiddatamonitoring.R;
 
 public class ParseControlFragmentDebug extends Fragment {
 

@@ -1,4 +1,4 @@
-package ledkis.monitoring.adapter;
+package ledkis.module.androiddatamonitoring.adapter;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -11,8 +11,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import ledkis.monitoring.R;
-import ledkis.monitoring.Util;
+import ledkis.module.androiddatamonitoring.R;
+import ledkis.module.androiddatamonitoring.Util;
 
 public class KeyValueObjectAdapter extends ArrayAdapter<Map.Entry<String, String>> {
 

@@ -1,4 +1,4 @@
-package ledkis.monitoring;
+package ledkis.module.androiddatamonitoring;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -12,11 +12,11 @@ import android.support.v4.view.ViewPager;
 import java.util.ArrayList;
 
 import io.leftshift.logcat.LogcatFragment;
-import ledkis.monitoring.fragment.KeyValueFragment;
-import ledkis.monitoring.fragment.ListKeyValueFragment;
-import ledkis.monitoring.fragment.ParseControlFragmentDebug;
-import ledkis.monitoring.model.KeyValueObject;
-import ledkis.monitoring.model.ListKeyValueObject;
+import ledkis.module.androiddatamonitoring.fragment.KeyValueFragment;
+import ledkis.module.androiddatamonitoring.fragment.ListKeyValueFragment;
+import ledkis.module.androiddatamonitoring.fragment.ParseControlFragmentDebug;
+import ledkis.module.androiddatamonitoring.model.KeyValueObject;
+import ledkis.module.androiddatamonitoring.model.ListKeyValueObject;
 
 public class MonitoringActivity extends Activity {
 
@@ -28,7 +28,7 @@ public class MonitoringActivity extends Activity {
 
     public static final String USER_ID = "USER_ID";
 
-//    public static final String LIST_KEY_VALUE_DATA = "LIST_KEY_VALUE_DATA";
+    public static final String LIST_KEY_VALUE_DATA = "LIST_KEY_VALUE_DATA";
 
     private ViewPager mPager;
     MonitoringPagerAdapter monitoringPagerAdapter;
