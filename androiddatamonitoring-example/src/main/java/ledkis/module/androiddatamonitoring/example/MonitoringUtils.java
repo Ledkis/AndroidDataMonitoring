@@ -69,7 +69,7 @@ public class MonitoringUtils {
         if (null != loggingMap)
             loggingObjects = getLoggingObjects(loggingMap);
 
-        Intent intent = MonitoringActivity.getIntent(activity, "0", keyValueObjects, listKeyValueObjects, loggingObjects);
+        Intent intent = MonitoringActivity.getIntent(activity, keyValueObjects, listKeyValueObjects, loggingObjects);
 
         activity.startActivity(intent);
 
