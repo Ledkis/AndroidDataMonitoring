@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:id="@+id/container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <ListView
+        android:id="@+id/entryListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/actionbar"
+        android:divider="#00000000"
+        android:dividerHeight="0dp"/>
+
+    <include
+        android:id="@+id/actionbar"
+        layout="@layout/actionbar_logcat"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>

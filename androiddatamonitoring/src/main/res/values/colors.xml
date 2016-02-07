@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Common Colors-->
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="pink">#FF0066</color>
+    <color name="clear_grey">#E3E3E3</color>
+    <color name="dark_grey">#323232</color>
+    <color name="even_grey">#E8E8E8</color>
+    <color name="red_error">#ff2222</color>
+
+    <color name="transpWhite">#F0ffffff</color>
+
+
+</resources>

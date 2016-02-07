@@ -72,7 +72,6 @@ public class Utils {
                 concatString += separator;
             i++;
         }
-
         return concatString;
     }
 
