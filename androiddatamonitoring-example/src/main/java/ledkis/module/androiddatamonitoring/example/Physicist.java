@@ -3,41 +3,29 @@ package ledkis.module.androiddatamonitoring.example;
 import org.joda.time.DateTime;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
-import java.util.Objects;
 
 /**
  * Created by ledkis on 07/02/2016.
  */
-public class User {
+public class Physicist {
 
-    public static final String TAG = "User";
+    public static final String TAG = "Physicist";
 
     private String name;
     private int age;
-    private float weight;
+    private float phi;
     private DateTime birthday;
     private Object object;
     private List<Object> things;
 
-    public User() {
-        name = "albert";
-        age = 50;
-        weight = 43.2f;
-        birthday = DateTime.now();
-        object = new Object();
-
-        things = new ArrayList<>();
-        things.add("car");
-        things.add(13);
-        things.add(3.14f);
-        things.add(DateTime.now());
-        things.add(new Object());
-    }
-
-    public static String getTAG() {
-        return TAG;
+    public Physicist(String name, int age, float phi, DateTime birthday, Object object, List<Object> things) {
+        this.name = name;
+        this.age = age;
+        this.phi = phi;
+        this.birthday = birthday;
+        this.object = object;
+        this.things = things;
     }
 
     public String getName() {
@@ -48,8 +36,8 @@ public class User {
         return age;
     }
 
-    public float getWeight() {
-        return weight;
+    public float getPhi() {
+        return phi;
     }
 
     public DateTime getBirthday() {
@@ -62,5 +50,10 @@ public class User {
 
     public List<Object> getThings() {
         return things;
+    }
+
+    @Override
+    public String toString() {
+        return name;
     }
 }
