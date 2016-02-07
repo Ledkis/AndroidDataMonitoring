@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 
 import ledkis.module.androiddatamonitoring.R;
-import ledkis.module.androiddatamonitoring.Util;
+import ledkis.module.androiddatamonitoring.Utils;
 import ledkis.module.androiddatamonitoring.model.KeyValueObject;
 
 
@@ -49,7 +49,7 @@ public class ListKeyValueObjectAdapter extends BaseExpandableListAdapter {
             rootView = convertView;
         }
 
-        if (Util.isHeader(entry.getKey())) {
+        if (Utils.isHeader(entry.getKey())) {
             rootView.setBackgroundColor(activity.getResources().getColor(android.R.color.holo_orange_dark));
         } else {
             rootView.setBackgroundColor(activity.getResources().getColor(android.R.color.holo_orange_light));
